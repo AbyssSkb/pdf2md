@@ -18,7 +18,7 @@ A tool that converts PDF documents to Markdown format using OpenAI's vision mode
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/pdf2md.git
+git clone https://github.com/AbyssSkb/pdf2md.git
 cd pdf2md
 ```
 
