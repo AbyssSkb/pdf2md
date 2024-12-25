@@ -1,0 +1,11 @@
+[project]
+name = "pdf2md"
+version = "0.1.0"
+description = "A tool that converts PDF documents to Markdown format using OpenAI's vision model"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.58.1",
+    "pdf2img>=0.1.2",
+    "python-dotenv>=1.0.1",
+]
