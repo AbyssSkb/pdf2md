@@ -50,6 +50,13 @@ python main.py
 - pdf2image
 - python-dotenv
 
+> **Note**: pdf2image requires additional system dependencies:
+> - On Windows: Install [poppler](https://github.com/oschwartz10612/poppler-windows/releases/)
+> - On Linux: `apt-get install poppler-utils`
+> - On macOS: `brew install poppler`
+>
+> For detailed installation instructions, please check [pdf2image documentation](https://github.com/Belval/pdf2image).
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
