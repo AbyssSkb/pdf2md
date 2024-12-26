@@ -30,18 +30,24 @@ pip install -r pyproject.toml
 3. Create a `.env` file with your OpenAI configuration:
 ```env
 OPENAI_API_KEY=your_api_key
-OPENAI_BASE_URL=your_base_url
-OPENAI_LLM_MODEL=your_model_name
+OPENAI_BASE_URL=your_base_url (optional)
+OPENAI_LLM_MODEL=your_preferred_model (default: gpt-4o)
 ```
 
 ## 📖 Usage
 
-1. Place your PDF file in the project directory as `input.pdf`
-2. Run the converter:
+The converter supports command-line arguments for input and output files:
+
 ```bash
-python main.py
+python main.py input.pdf --output output.md
 ```
-3. Find the converted markdown in `output.md`
+
+Or simply:
+```bash
+python main.py input.pdf
+```
+
+The converted markdown will be saved to the specified output file (defaults to `output.md`).
 
 ## 🛠️ Requirements
 

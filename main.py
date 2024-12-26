@@ -19,7 +19,7 @@ output_file = args.output
 
 load_dotenv()
 base_url = os.getenv("OPENAI_BASE_URL")
-llm_model = os.getenv("OPENAI_LLM_MODEL")
+llm_model = os.getenv("OPENAI_LLM_MODEL", default="gpt-4o")
 client = OpenAI(base_url=base_url)
 
 images = convert_from_path(input_file)
